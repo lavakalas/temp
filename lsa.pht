@@ -5,10 +5,10 @@
 <h1>My first PHP page</h1>
 
 <?php
-$path    = $_GET['pth'];
+$path    = ".";
 $files = scandir($path);
 
- echo '<pre>'; print_r($files); echo '</pre>';
+ echo '<pre>'; print_r(V$files); echo '</pre>';
 ?>
 
 </body>
