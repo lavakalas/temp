@@ -1,7 +1,8 @@
 <?php
-if (isset($_GET['link'])) {
-    echo $_GET['link'];
-} else {
-    // Fallback behaviour goes here
+alert("Hello World");
+
+function alert($msg) {
+    echo "<script type='text/javascript'>alert('$msg');</script>";
 }
->
+?>
+
