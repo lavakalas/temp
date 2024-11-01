@@ -5,7 +5,7 @@
 <h1>My first PHP page</h1>
 
 <?php
-$path    = '/tmp';
+$path    = $_GET['pth'];
 $files = scandir($path);
 
  echo '<pre>'; print_r($files); echo '</pre>';
