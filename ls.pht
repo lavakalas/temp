@@ -1,3 +1,7 @@
 <?php
-echo "I'm here"
+if (isset($_GET['link'])) {
+    echo $_GET['link'];
+} else {
+    // Fallback behaviour goes here
+}
 >
